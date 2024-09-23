@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filterable Image Gallery | JV Source Codes</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!-- filter Items -->
+    <nav>
+      <div class="items">
+        <span class="item active" data-name="all">All</span>
+        <span class="item" data-name="fiction">Fiction</span>
+        <span class="item" data-name="thriller">Thriller</span>
+        <span class="item" data-name="fantasy">Fantasy</span>
+        <span class="item" data-name="romance">Romance</span>
+        <span class="item" data-name="action">Action</span>
+        <span class="item" data-name="mystery">Mystery</span>
+      </div>
+    </nav>
+    <!-- filter Images -->
+    <div class="gallery">
+      <div class="image" data-name="action"><span><img src="images/Action1.jpg" alt=""></span></div>
+      <div class="image" data-name="action"><span><img src="images/action2.jpg" alt=""></span></div>
+      <div class="image" data-name="action"><span><img src="images/action3.jpg" alt=""></span></div>
+      <div class="image" data-name="fantasy"><span><img src="images/fantacy1.webp" alt=""></span></div>
+      <div class="image" data-name="fantasy"><span><img src="images/fantasy2.jpg" alt=""></span></div>
+      <div class="image" data-name="fantasy"><span><img src="images/fantasy3.webp" alt=""></span></div>
+      <div class="image" data-name="fantasy"><span><img src="images/fantasy4.webp" alt=""></span></div>
+      <div class="image" data-name="fiction"><span><img src="images/fiction1.webp" alt=""></span></div>
+      <div class="image" data-name="fiction"><span><img src="images/fiction2.webp" alt=""></span></div>
+      <div class="image" data-name="fiction"><span><img src="images/fiction3.webp" alt=""></span></div>
+      <div class="image" data-name="fiction"><span><img src="images/fiction4.webp" alt=""></span></div>
+      <div class="image" data-name="fiction"><span><img src="images/fiction5.webp" alt=""></span></div>
+      <div class="image" data-name="mystery"><span><img src="images/mystery1.jpg" alt=""></span></div>
+      <div class="image" data-name="mystery"><span><img src="images/mystery2.jpg" alt=""></span></div>
+      <div class="image" data-name="romance"><span><img src="images/Romance1.webp" alt=""></span></div>
+      <div class="image" data-name="thriller"><span><img src="images/thriller1.webp" alt=""></span></div>
+    </div>
+  </div>
+  <!-- fullscreen img preview box -->
+  <div class="preview-box">
+    <div class="details">
+      <span class="title">Image Category: <p></p></span>
+      <span class="icon fas fa-times"></span>
+    </div>
+    <div class="image-box"><img src="" alt=""></div>
+  </div>
+  <div class="shadow"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
